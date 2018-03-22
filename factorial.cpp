@@ -7,7 +7,7 @@ uintmax_t factorial(uint8_t factor){
 	
 	if(factor < 0){return errorValue;}
 	if(factor > maxFactor[sizeof(errorValue)]){return errorValue;}
-	else{return factorialMath(factor)}
+	else{return factorialMath(factor);}
 }
 
 uintmax_t factorial(uint8_t factor, uintmax_t errorValue){
@@ -16,7 +16,7 @@ uintmax_t factorial(uint8_t factor, uintmax_t errorValue){
 	
 	if(factor < 0){return errorValue;}
 	if(factor > maxFactor[sizeof(errorValue)]){return errorValue;}
-	else{return factorialMath(factor)}
+	else{return factorialMath(factor);}
 }
 
 uintmax_t factorialMath(uint8_t factor){
