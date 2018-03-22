@@ -7,7 +7,7 @@ uintmax_t factorial(uint16_t factor){
 	
 	if(factor < 0 || factor > maxFactor[sizeof(uintmax_t)-1]){
 		return errorValue;
-	}
+	};;
 	else{return factorialMath(factor);}
 }
 
